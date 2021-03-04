@@ -1,0 +1,17 @@
+{
+  "name": "bahmanyor/patterns",
+  "type": "project",
+  "description": "patterns",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-mbstring": "*",
+    "psr/log": "^1.0",
+    "roave/security-advisories": "master@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Patterns\\": "src/"
+    }
+  }
+}
